@@ -50,4 +50,39 @@
 # print(twoList)
 
 # # Tuple
-amarTuple =('ordered', 'unchangeable', 'allow duplicates')
+# amarTuple =('ordered', 'unchangeable', 'deletable by making it list', 'allow duplicates')
+# print(amarTuple)
+# print(len(amarTuple))
+# thisisTuple=('one item',)
+# print(type(thisisTuple))
+# thisisnotTuple = ('one item')
+# print(type(thisisnotTuple))
+# notunadd = ('notun tuple',)
+# amarTuple += notunadd
+# print(amarTuple)
+# for x in amarTuple:
+#     print(x)
+
+# # Set
+# myset = {'unordered', 'unchangeable', 'no duplicates', 'unindexed'}
+# print('unordered' in myset)
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+# set3 = set1 & set2
+# print(set3)
+
+# # Dictionaries
+# thisDict = {
+#     "have": "ordered or unordered",
+#     "changeable": "changeable",
+#     "no duplicates": "no duplicates",
+# }
+# print(thisDict["changeable"])
+# print(thisDict.keys())
+# thisDict.update({"add": "ai vabe add kore"})
+# print(thisDict)
+
+# # Function
+# def my_function():
+#   print("Hello from a function")
+# my_function()
